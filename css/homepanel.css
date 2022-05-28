@@ -1,0 +1,154 @@
+.panel1 {
+    height: 548px;
+    background-color: #fff;
+    box-shadow: 0px -2px 5px #f9f9f9, 0px 2px 5px #f9f9f9;
+}
+
+.panel2 {
+    height: 128px;
+    background-color: #f8fbfe;
+}
+
+.panel1>div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 120px;
+    justify-content: space-between;
+}
+
+.panel1>div:nth-child(2)>div {
+    width: 280px;
+    height: 210px;
+}
+
+.panel1>div:nth-child(2)>div div {
+    height: 150px;
+    background: url(../images/index/sbj.png) no-repeat center;
+}
+
+.panel1>div:nth-child(2)>div>p:nth-child(2) {
+    margin-top: -6px;
+    color: black;
+    line-height: 28px;
+}
+
+.p_blue1,
+.p_blue2 {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #0089e6;
+    font-weight: bold;
+}
+
+.p_blue1 {
+    padding-top: 30px;
+    font-size: 34px;
+}
+
+
+/* panel3 */
+
+.panel3 {
+    margin: 0 auto;
+    width: 1200px;
+    height: 454px;
+    background-color: #fff;
+}
+
+.panel3 div {
+    width: 20%;
+    height: 33%;
+    float: left;
+}
+
+.panel3 div:first-child {
+    background: url(../images/index/anli1.png) bottom;
+}
+
+.panel3 div:nth-child(2) {
+    background: url(../images/index/anli2.png) bottom;
+}
+
+.panel3 div:nth-child(3) {
+    background: url(../images/index/anli3.png) bottom;
+}
+
+.panel3 div:nth-child(4) {
+    background: url(../images/index/anli4.png) bottom;
+}
+
+.panel3 div:nth-child(5) {
+    background: url(../images/index/anli5.png) bottom;
+}
+
+.panel3 div:nth-child(6) {
+    background: url(../images/index/anli6.png) bottom;
+}
+
+.panel3 div:nth-child(7) {
+    background: url(../images/index/anli7.png) bottom;
+}
+
+.panel3 div:nth-child(8) {
+    background: url(../images/index/anli8.png) bottom;
+}
+
+.panel3 div:nth-child(9) {
+    background: url(../images/index/anli9.png) bottom;
+}
+
+.panel3 div:nth-child(10) {
+    background: url(../images/index/anli10.png) bottom;
+}
+
+.panel3 div:nth-child(11) {
+    background: url(../images/index/anli11.png) bottom;
+}
+
+.panel3 div:nth-child(12) {
+    background: url(../images/index/anli12.png) bottom;
+}
+
+.panel3 div:nth-child(13) {
+    background: url(../images/index/anli13.png) bottom;
+}
+
+.panel3 div:nth-child(14) {
+    background: url(../images/index/anli14.png) bottom;
+}
+
+.panel3 div:nth-child(15) {
+    background: url(../images/index/anli15.png) bottom;
+}
+
+.panel3 div {
+    transition: background-position 0.5s;
+}
+
+.panel3 div:hover {
+    background-position: top;
+}
+
+
+/* panel4 */
+
+.panel4 {
+    height: 150px;
+    background-color: #f8fbfe;
+    padding-top: 30px;
+}
+
+.panel4>div {
+    clear: both;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    font-size: 14px;
+    margin: 30px auto;
+}
+
+.panel4>div>a {
+    color: #0089e6;
+}

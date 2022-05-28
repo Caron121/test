@@ -1,0 +1,92 @@
+p {
+    color: #898989;
+    font-size: 12px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #898989;
+}
+
+
+/* nav */
+
+.nav {
+    width: 1340px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    z-index: 200;
+}
+
+
+/* 左边 */
+
+.left {
+    display: flex;
+}
+
+.left img {
+    height: 80%;
+    border-right: 1px solid #ccc;
+    vertical-align: middle;
+    padding-right: 10px;
+    /* margin-top: 12px;
+    padding-left: 74px;
+    /* float: left; */
+}
+
+.left div {
+    text-align: left;
+    width: 300px;
+    /* float: left; */
+    line-height: 20px;
+    /* margin-left: 10px; */
+    margin: auto 10px;
+}
+
+.left div p:first-child {
+    font-weight: bold;
+}
+
+.left div p:nth-child(2),
+.left div p:nth-child(3) {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.left div p:nth-child(3) {
+    font-style: italic;
+    font-weight: bold;
+    color: #00b0eb;
+}
+
+
+/* 右边 */
+
+.right {
+    height: 80px;
+    line-height: 80px;
+}
+
+.right li {
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.right li a {
+    font-size: 13px;
+}
+
+.right li a:hover {
+    color: #00b0eb;
+}

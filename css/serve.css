@@ -1,0 +1,62 @@
+.ser_banner {
+    width: 100%;
+    height: 190px;
+    background: url(../images/list1/planning_banner.png) no-repeat center;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.ser {
+    width: 100%;
+    height: 90px;
+    background: url(../images/list4/Service[1].png) no-repeat left;
+    background-size: 90%;
+}
+
+.con div {
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.panel1 {
+    background: url(../images/list4/Process_con_one[1].png) no-repeat left top;
+}
+
+.con div p:first-child {
+    /* text-align: left; */
+    margin-top: 56px;
+    margin-left: 56px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.con div p:nth-child(2) {
+    font-size: 14px;
+    color: #000;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.panel2 {
+    background: url(../images/list4/Process_con_two[1].png) no-repeat left top;
+}
+
+.panel3 {
+    background: url(../images/list4/Process_con_three[1].png) no-repeat left top;
+}
+
+.panel4 {
+    background: url(../images/list4/Process_con_four[1].png) no-repeat left top;
+}
+
+.panel5 {
+    background: url(../images/list4/Process_con_five[1].png) no-repeat left top;
+}
+
+.panel6 {
+    background: url(../images/list4/Process_con_six[1].png) no-repeat left top;
+}

@@ -1,0 +1,251 @@
+.bus_banner {
+    width: 1340px;
+    height: 190px;
+    background: url(../images/list1/planning_banner.png) no-repeat center;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+
+/* panel1 */
+
+.bus_panel1 {
+    height: 420px;
+}
+
+.bus_panel1>div {
+    padding: 0 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.bus_panel1>div div {
+    width: 20%;
+    height: 210px;
+}
+
+.bus_panel1>div div:first-child {
+    background: url(../images/list1/ps11.png) no-repeat center;
+    background-size: 200px auto;
+}
+
+.bus_panel1>div div:nth-child(2) {
+    background: url(../images/list1/ps12.png) no-repeat center;
+    background-size: 200px auto;
+}
+
+.bus_panel1>div div:nth-child(3) {
+    background: url(../images/list1/ps13.png) no-repeat center;
+    background-size: 200px auto;
+}
+
+.bus_panel1>div div:nth-child(4) {
+    background: url(../images/list1/ps14.png) no-repeat center;
+    background-size: 200px auto;
+}
+
+.bus_panel1>div div:nth-child(5) {
+    background: url(../images/list1/ps15.png) no-repeat center;
+    background-size: 200px auto;
+}
+
+.bus_panel1>div div p {
+    margin-top: 146px;
+}
+
+
+/* panel2 */
+
+
+/* panel3 */
+
+.panel3 {
+    height: 260px;
+}
+
+.bus_panel3>div {
+    padding: 0 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.bus_panel3>div div {
+    width: 370px;
+}
+
+.bus_panel3>div div p {
+    text-align: left;
+}
+
+.bus_panel3>div div p:nth-child(2) {
+    font-size: 14px;
+    color: #000;
+    line-height: 30px;
+}
+
+.bus_panel3>div div p:nth-child(3),
+.bus_panel3>div div p:nth-child(4) {
+    float: left;
+}
+
+.bus_panel3>div div p:nth-child(3) {
+    padding-right: 10px;
+    color: #ff5a00;
+    border-right: 1px solid #a8589a;
+}
+
+.bus_panel3>div div:nth-child(2) p:nth-child(3) {
+    color: #779a39;
+}
+
+.bus_panel3>div div:nth-child(3) p:nth-child(3) {
+    color: #0090e7;
+}
+
+.bus_panel3>div div p:nth-child(4) {
+    padding-left: 10px;
+}
+
+
+/* panel4 */
+
+.bus_panel4 div {
+    width: 1340px;
+    height: 450px;
+    background: url(../images/list1/ps41.png) no-repeat center;
+}
+
+
+/* panel5 */
+
+.bus_panel5>div {
+    padding: 0 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.bus_panel5>div>div {
+    width: 318px;
+    height: 468px;
+    background-color: #3e70b4;
+    border: 1px solid #CCC;
+    /* overflow: hidden; */
+}
+
+.bus_panel5>div>div p:first-child {
+    font-size: 14px;
+    color: #FFF;
+    line-height: 40px;
+}
+
+.bus_panel5>div>div img:nth-child(2) {
+    width: 318px;
+    height: 388px;
+}
+
+.bus_panel5>div>div {
+    position: relative;
+}
+
+.bus_panel5>div>div img:nth-child(3) {
+    position: absolute;
+    opacity: 0;
+    top: 100px;
+    left: 320px;
+    transition: left 0.5s, opacity 0.1s;
+}
+
+.bus_panel5>div>div div:nth-child(4) {
+    width: 318px;
+    height: 80px;
+    background-color: #000;
+    opacity: 0;
+    position: absolute;
+    top: 470px;
+    transition: top 0.5s, opacity 0.1s;
+    color: #FFF;
+}
+
+.bus_panel5>div>div div:nth-child(4) p {
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.bus_panel5>div>div>img:nth-child(2):hover~img {
+    opacity: 1;
+    left: 160px;
+}
+
+.bus_panel5>div>div>img:nth-child(2):hover~div {
+    opacity: .5;
+    top: 390px;
+}
+
+
+/* panel7 */
+
+.bus_panel7>div {
+    height: 300px;
+    padding: 0 70px;
+    padding-bottom: 100px;
+}
+
+.bus_panel7>div div {
+    width: 20%;
+    height: 150px;
+    float: left;
+}
+
+.bus_panel7>div div:first-child {
+    background: url(../images/index/anli1.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(2) {
+    background: url(../images/index/anli2.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(3) {
+    background: url(../images/index/anli3.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(4) {
+    background: url(../images/index/anli4.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(5) {
+    background: url(../images/index/anli5.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(6) {
+    background: url(../images/index/anli6.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(7) {
+    background: url(../images/index/anli7.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(8) {
+    background: url(../images/index/anli8.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(9) {
+    background: url(../images/index/anli9.png) bottom;
+}
+
+.bus_panel7>div div:nth-child(10) {
+    background: url(../images/index/anli10.png) bottom;
+}
+
+.bus_panel7>div div {
+    transition: background-position 0.5s;
+}
+
+.bus_panel7>div div:hover {
+    background-position: top;
+}

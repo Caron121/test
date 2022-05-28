@@ -1,0 +1,25 @@
+.mar_banner {
+    width: 1340px;
+    height: 170px;
+    background: url(../images/list3/szh-banner.jpg) no-repeat bottom;
+    background-size: 150%;
+    margin-top: 80px;
+}
+
+.im_1 {
+    width: 100%;
+    height: 650px;
+    background: url(../images/list3/szhyx-img1.jpg) no-repeat center;
+}
+
+.im_2 {
+    width: 100%;
+    height: 600px;
+    background: url(../images/list3/szhyx-img2.jpg) no-repeat center;
+}
+
+.im_3 {
+    width: 100%;
+    height: 820px;
+    background: url(../images/list3/szhyx-img3.jpg) no-repeat center;
+}
